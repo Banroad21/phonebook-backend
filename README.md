@@ -4,7 +4,8 @@
 3. npm run server
 
 **IMPORTANT**
-1. This server uses MySQL as Database and hosted in **Railway** which is a deployment platform that simplifies deploying web applications and databases by managing the underlying infrastructure. Thus, make sure to update the necessary database and connections. Create tbl_Contacts and tbl_Users
+1. This server uses MySQL as Database and hosted in **Railway** which is a deployment platform that simplifies deploying web applications and databases by managing the underlying infrastructure. Thus, make sure to update the **config default.json** and check database connections. Create tbl_Contacts and tbl_Users in Railway.
+2. Connect your github account to Railway and select MySQL
 
 **tbl_Users**
 UserID (primary key) [type_serial]
